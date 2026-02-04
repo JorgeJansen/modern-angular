@@ -1,0 +1,11 @@
+<p>This is my first Angular component!</p>
+<h1>{{ title }}</h1>
+
+<button [disabled]="isDisabed" (click)="onClick()">Click me</button>
+
+<h1>Count: {{ count() }}</h1>
+<h1>Double: {{ doubleCount() }}</h1>
+
+<button (click)="increment()">+</button>
+<button (click)="decrement()">-</button>
+<button (click)="reset()">Reset</button>
